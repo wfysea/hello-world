@@ -4,4 +4,13 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>wfy.jxnu.action.HelloServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/hello.do</url-pattern>
+  </servlet-mapping>
 </web-app>
